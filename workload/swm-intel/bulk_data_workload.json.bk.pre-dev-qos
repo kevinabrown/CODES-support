@@ -1,0 +1,21 @@
+{
+"jobs" : {
+        "dll_path": "${FABSIM_APPS_PATH}/dll/bulk_data.so",
+        "size": 6,
+        "cfg": {
+            "app": "bulk_data",
+            "iteration_cnt": 1,
+            "compute_delay": 0,
+            "msg_req_bytes": 1048576,
+            "msg_rsp_bytes": 0,
+            "start_delay_max" : 10000,
+            "scattered_start" : false,
+            "randomize_communication_order": false,
+            "fixed_pairs" : false, 
+            "debug" : false, 
+            "src_rank_id_interval": [0,2],
+            "dst_rank_id_interval": [3,5],
+            "cpu_freq" : 4e9
+       }
+    }
+}

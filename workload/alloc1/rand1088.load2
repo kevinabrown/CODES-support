@@ -1,0 +1,5 @@
+256 bulk_data 2 0.0000
+64 spread 0 0.0000
+256 lammps 1 0.0000
+256 bulk_data 1 0.0000
+256 synthetic1 3 29.8023
